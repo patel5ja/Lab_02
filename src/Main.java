@@ -7,23 +7,23 @@ public class Main {
 
         ArrayList<Worker> workers = new ArrayList<>();
 
-        Worker bob = new Worker("001", "Jeel", "Patel", "Ms.", 2004, 25.0);
-        workers.add(bob);
+        Worker Jeel = new Worker("001", "Jeel", "Patel", "Ms.", 2004, 25.0);
+        workers.add(Jeel);
 
-        Worker frodo = new Worker("002", "Pranjal", "Pokharel", "Mr.", 2002, 26.5);
-        workers.add(frodo);
+        Worker Pranjal = new Worker("002", "Pranjal", "Pokharel", "Mr.", 2002, 26.5);
+        workers.add(Pranjal);
 
-        Worker samwise = new Worker("003", "Jigna", "patel", "Ms.", 1983, 25.0);
-        workers.add(samwise);
+        Worker Jigna = new Worker("003", "Jigna", "patel", "Ms.", 1983, 25.0);
+        workers.add(Jigna);
 
-        SalaryWorker maya = new SalaryWorker("00A", "Amit", "Patel", "Ms.", 1976, 30.0, 52000.0);
-        workers.add(maya);
+        SalaryWorker Amit = new SalaryWorker("00A", "Amit", "Patel", "Ms.", 1976, 30.0, 52000.0);
+        workers.add(Amit);
 
-        SalaryWorker james = new SalaryWorker("00B", "Abhi", "Patel", "Mr.", 1970, 23.0, 85000.0);
-        workers.add(james);
+        SalaryWorker Abhi = new SalaryWorker("00B", "Abhi", "Patel", "Mr.", 1970, 23.0, 85000.0);
+        workers.add(Abhi);
 
-        SalaryWorker sally = new SalaryWorker("00C", "Bilbo", "Baggins", "Mr.", 1988, 20.0, 96000.0);
-        workers.add(sally);
+        SalaryWorker Bilbo = new SalaryWorker("00C", "Bilbo", "Baggins", "Mr.", 1988, 20.0, 96000.0);
+        workers.add(Bilbo);
 
         int[] weeklyHours = {40, 50, 40};
 
