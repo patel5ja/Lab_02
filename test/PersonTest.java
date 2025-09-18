@@ -56,7 +56,7 @@ public class PersonTest {
     @Test
     void toCSVDataString() {
         String csv = p.toCSVDataString();
-        assertEquals("0000A,Jeel,Baggins,Mr.,1950", csv);
+        assertEquals("0000A,Jeel,Patel,Ms.,2004", csv);
     }
 
     @Test
@@ -65,7 +65,7 @@ public class PersonTest {
         assertTrue(json.startsWith("{"));
         assertTrue(json.contains("\"IDNum\":\"0000A\""));
         assertTrue(json.contains("\"firstName\":\"Jeel\""));
-        assertTrue(json.contains("\"lastName\":\"Baggins\""));
+        assertTrue(json.contains("\"lastName\":\"Patel\""));
         assertTrue(json.contains("\"title\":\"Ms.\""));
         assertTrue(json.contains("\"YOB\":2004"));
         assertTrue(json.endsWith("}"));
